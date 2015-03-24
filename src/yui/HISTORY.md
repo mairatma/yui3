@@ -1,10 +1,12 @@
 YUI Core Change History
 =======================
 
-@VERSION@
+3.18.0
 ------
 
-* No changes.
+* [#1935][]: Mark all Android devices as "mobile". (@nolanlawson)
+
+[#1935]: https://github.com/yui/yui3/pull/1935
 
 3.17.2
 ------
@@ -19,7 +21,10 @@ YUI Core Change History
 3.17.0
 ------
 
-* No changes.
+* `Y.Lang.sub()` now supports nested object paths in placeholders, such as
+  "{foo.bar.baz}". ([#1814][]: @customcommander)
+
+[#1814]: https://github.com/yui/yui3/pull/1814
 
 3.16.0
 ------
